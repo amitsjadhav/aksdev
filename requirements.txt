@@ -1,0 +1,16 @@
+# Official IBM MQ Python library
+
+# https://pypi.org/project/ibm-mq/
+
+# Requires IBM MQ Redistributable Client libs on LD_LIBRARY_PATH (see Dockerfile)
+
+ibm-mq==9.3.5.1
+
+# Databricks SQL connector (Unity Catalog support)
+
+databricks-sql-connector==3.3.0
+
+# Standard dependencies (pinned for reproducibility)
+
+certifi>=2024.2.2
+urllib3>=2.2.1
